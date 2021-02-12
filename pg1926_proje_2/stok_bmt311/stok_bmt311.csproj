@@ -1,0 +1,607 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F9971295-0F15-4282-AAB4-70B003F7D991}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>stok_bmt311</RootNamespace>
+    <AssemblyName>stok_bmt311</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\CASPER\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>F28CF25CB9C1B885C494B6B3C7770D8F374712CE</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>stok_bmt311_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form10.Designer.cs">
+      <DependentUpon>Form10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form11.Designer.cs">
+      <DependentUpon>Form11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form12.Designer.cs">
+      <DependentUpon>Form12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form13.Designer.cs">
+      <DependentUpon>Form13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form14.Designer.cs">
+      <DependentUpon>Form14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form15.Designer.cs">
+      <DependentUpon>Form15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form16.Designer.cs">
+      <DependentUpon>Form16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form17.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form17.Designer.cs">
+      <DependentUpon>Form17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form18.Designer.cs">
+      <DependentUpon>Form18.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form19.Designer.cs">
+      <DependentUpon>Form19.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form20.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form20.Designer.cs">
+      <DependentUpon>Form20.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form21.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form21.Designer.cs">
+      <DependentUpon>Form21.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7.Designer.cs">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8.Designer.cs">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form9.Designer.cs">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form10.resx">
+      <DependentUpon>Form10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form11.resx">
+      <DependentUpon>Form11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form12.resx">
+      <DependentUpon>Form12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form13.resx">
+      <DependentUpon>Form13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form14.resx">
+      <DependentUpon>Form14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form15.resx">
+      <DependentUpon>Form15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form16.resx">
+      <DependentUpon>Form16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form17.resx">
+      <DependentUpon>Form17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form18.resx">
+      <DependentUpon>Form18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form19.resx">
+      <DependentUpon>Form19.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form20.resx">
+      <DependentUpon>Form20.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form21.resx">
+      <DependentUpon>Form21.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7.resx">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8.resx">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form9.resx">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="stok_bmt311_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_8_3898372 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_lock_115716.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_User_4476903.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_Internet_Security_lock_locked_password_secure_padlock_5172991.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_Internet_Security_lock_locked_password_secure_padlock_5172991 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_Paul-18_2524750.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_account_2428662.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_xmas-shopping-christmas-present-gift-bag_5448847.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_LinkedIn_UI-15_2335590 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_add_user_5925582.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_030_95929.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_028_95871.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_retweet_334739.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_SEO_usability_audit_search__969250.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_table_1370032.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_remove_user_309037.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_add_user_309049.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_refresh_134221.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_magnifying-glass-search_511943.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_eccomerce_-_shopping_cart_add_3440911.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_eccomerce_-_shopping_cart_remove_3440922.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_160-Shopping_Bag_2123988.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_Shopping_and_Ecommerce_shopping_bag_add_6619501.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_Shopping_and_Ecommerce_shopping_bag_remove_6619496.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_magnifying-glass-search_5119431.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_table_13700321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_add_user_3090491.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_remove_user_3090371.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_refresh_1342211.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_magnifying-glass-search_5119432.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_table_13700322.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_LinkedIn_UI-15_2335590 %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_remove_user_3090372.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_add_user_3090492.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_refresh_1342212.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_magnifying-glass-search_5119433.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_table_13700323.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_Shopping_and_Ecommerce_shopping_bag_add_66195011.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_Shopping_and_Ecommerce_shopping_bag_remove_66194961.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_160-Shopping_Bag_21239881.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_magnifying-glass-search_5119434.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_table_13700324.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_floppy_285657 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_back_32384.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_remove_user_3090373.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_mypc_delete_41748.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_sort-numeric-asc_1608402.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_sort-numeric-desc_1608401.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_sort-numeric-desc_1608401 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_sort-numeric-desc_1608401 %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_sort-numeric-desc_1608401 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_sort-numeric-asc_1608402 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_sort_down_alpha_asc_6138348.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_sort-alpha-asc_1608407.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ac8671dc-5140-4091-b8ab-708e7ee9eecb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ac8671dc-5140-4091-b8ab-708e7ee9eecb1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\headline.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\headline1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_home_309062.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_arrow_left_square_black_243653.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_screen-full_298714.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_minus-hyphen-dash-line-subtract_3209418.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_floppy_285657 %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_home_3090621.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_ic_save_48px_352084.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_remove_user_3090374.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ea391983032366d110d05ca6b376e0c9-3-780x405.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_screen-normal_298864.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\px-image-working-people.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\olabilir-1200x642.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\müşteri_karakteri-b2b-içerik_pazarlama-dijital_pazarlama-içerik.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\potansiyel-musteri-karakter1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\potansiyel-musteri-karakter11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1500x1500_thumb_full-eticaret-paketi.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\74808075-vector-delivery-cargo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1500x1500_thumb_full-eticaret-paketi1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1200682290-1024x1024.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eticaret.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Adsız.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toplu1245-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\infographics-background-ecommerce-business-concept-600w-193255976.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pratik-e-ticaret-siteleri-1024x943.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ar-Ge-Ekosistemi-495x400.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\animation-people-129115-8801895.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\67675.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Adsız1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16-165810_listening-to-customers-png-customer-png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\255-2558076_customer-clipart-client-happy-customers-cartoon-png-transparent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Adsız2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shopping-and-e-commerce-Icons.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\111071655-shopping-at-market-online-and-delivery-product-icon-concept-e-commerce-business-.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shopping-and-e-commerce-Icons1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-clipart-customer-satisfaction-graphy-i-others-text-service-thumbnail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\03146d22c17049839ee23679028dd39f_637229745722950213.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shopping-and-e-commerce-Icons2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Adsız3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_edit-clear_38988.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconfinder_edit-clear_389881.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 ve x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 </ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\px-image-working-people1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
