@@ -1,0 +1,137 @@
+body{
+    padding:0; margin:0;width: 100%; height: 100%;
+   
+}.altkisim{
+    width: 100%; height:0.5%;
+    text-align:center ;
+    position: fixed; bottom: 0;
+    background:#2772cd;
+    color:#FFFFFF;
+    padding: 15px 15px;
+}
+ul{
+    margin:0;
+    padding: 0;
+
+}
+.menu{
+    width: 100%;
+    height: auto;
+    background:#2772cd;
+    color:#FFFFFF;
+    text-align:center;
+    padding: 15px 0;
+}
+.menu li{
+    margin-right: 30px;
+    list-style: none;
+    display: inline-block;
+}
+.menu li a{
+    color:#FFFFFF;
+    text-decoration: none;   
+}
+.menu li a:hover{ /*yazının üstüne gelince renk değiştir.*/
+    color:black;
+}
+.aktif{
+    color:black !important;
+}
+.ortakisim{
+    width: 80%;
+    height: 1000px;
+    margin:auto;
+    padding: 15px;
+    font-size: larger;
+    margin-top: 50px;
+    text-align: center;
+
+}
+input[type=text], input[type=password]{
+    width: 100%; 
+    padding: 12px 20px 12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing:border-box ;
+
+}
+button{
+    width: 100%;
+    background: #2772cd;
+    color: white;
+    height: auto;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover{
+    background:black;
+    ;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header .title {
+    margin: 10px;
+    font-size: 42px;
+    color: #2772cd;
+    font-family: 'Pacifico', cursive !important;
+  }
+  .header .search-area {
+    display: flex;
+  }
+  .header .search-area input {
+    margin: 0px;
+    height: 35px;
+    width: 250px;
+    outline: none;
+    background: none;
+    color: #D5CCCC;
+    padding: 7.5px 10px;
+    border: 2px solid  #2772cd;
+    border-top-left-radius: 12.5px;
+    border-bottom-left-radius: 12.5px;
+    transition: 0.2s ease;
+  }
+  
+  .header .search-area input:focus {
+    border: 2px solid #97E5EF; 
+    transition: 0.2s ease;
+  }
+  movie-showcase {
+    margin: 50px 0;
+    padding: 10px;
+    width: 325px;
+    color: #333745;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+    background-color: #D5CCCC;
+  }
+  
+  .movie-showcase #moviePoster {
+   
+    border-radius: 1.5px;
+    display: block;
+    margin: 10 auto;
+    
+  }
+  
+  .movie-showcase #movieName {
+    margin: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align:center ;
+  }
+  
+  .movie-showcase #moviePlot {
+    margin: 5px;
+    font-size: 14px;
+  }
+  
